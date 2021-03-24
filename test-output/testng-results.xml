@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[14:31:43.560 [main] ERROR c.k.kata.helper.ParameterHelper - Fail to load properties from C:\Users\K.Zhukouskaya\.katalon\framework.properties
+java.io.FileNotFoundException: C:\Users\K.Zhukouskaya\.katalon\framework.properties (The system cannot find the file specified)
+at java.base/java.io.FileInputStream.open0(Native Method)
+at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
+at com.katalon.kata.helper.ParameterHelper.loadParameters(ParameterHelper.java:27)
+at com.katalon.kata.helper.ParameterHelper.<clinit>(ParameterHelper.java:18)
+at com.katalon.kata.katalon.KatalonProperties.loadApplicationProperties(KatalonProperties.java:41)
+at com.katalon.kata.katalon.KatalonProperties.<init>(KatalonProperties.java:37)
+at com.katalon.kata.testng.KatalonListener.onExecutionStart(KatalonListener.java:43)
+at org.testng.TestNG.runExecutionListeners(TestNG.java:1075)
+at org.testng.TestNG.run(TestNG.java:1026)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[14:31:43.563 [main] ERROR c.k.kata.helper.ParameterHelper - Fail to load properties from kata-default.properties
+java.lang.NullPointerException: inStream parameter is null
+at java.base/java.util.Objects.requireNonNull(Objects.java:233)
+at java.base/java.util.Properties.load(Properties.java:407)
+at com.katalon.kata.helper.ParameterHelper.loadParameters(ParameterHelper.java:34)
+at com.katalon.kata.helper.ParameterHelper.<clinit>(ParameterHelper.java:18)
+at com.katalon.kata.katalon.KatalonProperties.loadApplicationProperties(KatalonProperties.java:41)
+at com.katalon.kata.katalon.KatalonProperties.<init>(KatalonProperties.java:37)
+at com.katalon.kata.testng.KatalonListener.onExecutionStart(KatalonListener.java:43)
+at org.testng.TestNG.runExecutionListeners(TestNG.java:1075)
+at org.testng.TestNG.run(TestNG.java:1026)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[14:31:43.676 [main] INFO  c.k.kata.testng.KatalonListener - Requesting token with user credentials.
+]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[14:31:44.792 [main] INFO  c.k.kata.testng.KatalonListener - For real-time monitoring and better reporting capabilities please integrate this project with Katalon Analytics (more details at https://docs.katalon.com/katalon-analytics/docs/integration-with-katalon-studio.html#enable-integration)
+]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[14:31:44.812 [main] INFO  com.katalon.kata.testng.TestTemplate - Initializing parameters.
+]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[14:31:44.813 [main] INFO  com.katalon.kata.testng.TestTemplate - Initializing WebDriver chrome http://localhost:4444
+]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[14:31:44.814 [main] INFO  com.katalon.kata.testng.TestHelper - Initializing WebDriver from context.
+]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[14:31:44.818 [main] INFO  c.k.kata.webdriver.WebDriverPool - Initializing WebDriver for: chrome
+]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[14:31:44.818 [main] INFO  c.k.kata.webdriver.WebDriverPool - WebDriver cache is empty, creating new WebDriver.
+]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[14:31:45.742 [main] INFO  com.katalon.kata.testng.TestTemplate - Initializing Pages.
+]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[14:31:45.743 [main] INFO  com.katalon.kata.testng.TestTemplate - pageObject.pages.CuraHomePage@2f7dcef2
+]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[14:31:45.743 [main] INFO  com.katalon.kata.testng.TestTemplate - pageObject.pages.CuraLoginPage@4a3be6a5
+]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[14:31:45.743 [main] INFO  com.katalon.kata.testng.TestTemplate - pageObject.pages.CuraAppoinmentPage@7cf162bc
+]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[14:31:45.743 [main] INFO  c.katalon.kata.selenium.PageTemplate - Initializing Page: pageObject.pages.CuraHomePage
+]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[14:31:45.753 [main] INFO  c.katalon.kata.selenium.PageTemplate - Initializing Page: pageObject.pages.CuraLoginPage
+]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[14:31:45.754 [main] INFO  c.katalon.kata.selenium.PageTemplate - Initializing Page: pageObject.pages.CuraAppoinmentPage
+]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[14:31:45.757 [main] INFO  c.katalon.kata.selenium.PageTemplate - Open CURA home page.
+]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[14:31:51.437 [main] INFO  c.katalon.kata.selenium.PageTemplate - Make appointment.
+]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[14:31:51.848 [main] INFO  c.katalon.kata.selenium.PageTemplate - Log in.
+]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[14:31:52.847 [main] INFO  c.katalon.kata.selenium.PageTemplate - Check is on appointment page.
+]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[14:31:52.952 [main] INFO  c.katalon.kata.selenium.PageTemplate - Fill appointment details.
+]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-03-24T14:31:44 MSK" name="Default Suite" finished-at="2021-03-24T14:31:54 MSK" duration-ms="9476">
+    <groups>
+    </groups>
+    <test started-at="2021-03-24T14:31:44 MSK" name="KataliumFramework" finished-at="2021-03-24T14:31:54 MSK" duration-ms="9476">
+      <class name="testCases.LoginTest">
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:testCases.LoginTest@5ad10c1a]" started-at="2021-03-24T14:31:44 MSK" name="beforeTest" finished-at="2021-03-24T14:31:45 MSK" duration-ms="947" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@42210be1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[14:31:44.812 [main] INFO  com.katalon.kata.testng.TestTemplate - Initializing parameters.
+]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[14:31:44.813 [main] INFO  com.katalon.kata.testng.TestTemplate - Initializing WebDriver chrome http://localhost:4444
+]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[14:31:44.814 [main] INFO  com.katalon.kata.testng.TestHelper - Initializing WebDriver from context.
+]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[14:31:44.818 [main] INFO  c.k.kata.webdriver.WebDriverPool - Initializing WebDriver for: chrome
+]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[14:31:44.818 [main] INFO  c.k.kata.webdriver.WebDriverPool - WebDriver cache is empty, creating new WebDriver.
+]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[14:31:45.742 [main] INFO  com.katalon.kata.testng.TestTemplate - Initializing Pages.
+]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[14:31:45.743 [main] INFO  com.katalon.kata.testng.TestTemplate - pageObject.pages.CuraHomePage@2f7dcef2
+]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[14:31:45.743 [main] INFO  com.katalon.kata.testng.TestTemplate - pageObject.pages.CuraLoginPage@4a3be6a5
+]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[14:31:45.743 [main] INFO  com.katalon.kata.testng.TestTemplate - pageObject.pages.CuraAppoinmentPage@7cf162bc
+]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[14:31:45.743 [main] INFO  c.katalon.kata.selenium.PageTemplate - Initializing Page: pageObject.pages.CuraHomePage
+]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[14:31:45.753 [main] INFO  c.katalon.kata.selenium.PageTemplate - Initializing Page: pageObject.pages.CuraLoginPage
+]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[14:31:45.754 [main] INFO  c.katalon.kata.selenium.PageTemplate - Initializing Page: pageObject.pages.CuraAppoinmentPage
+]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="shouldLogin()[pri:0, instance:testCases.LoginTest@5ad10c1a]" started-at="2021-03-24T14:31:45 MSK" name="shouldLogin" finished-at="2021-03-24T14:31:54 MSK" duration-ms="8508" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[14:31:45.757 [main] INFO  c.katalon.kata.selenium.PageTemplate - Open CURA home page.
+]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[14:31:51.437 [main] INFO  c.katalon.kata.selenium.PageTemplate - Make appointment.
+]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[14:31:51.848 [main] INFO  c.katalon.kata.selenium.PageTemplate - Log in.
+]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[14:31:52.847 [main] INFO  c.katalon.kata.selenium.PageTemplate - Check is on appointment page.
+]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[14:31:52.952 [main] INFO  c.katalon.kata.selenium.PageTemplate - Fill appointment details.
+]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- shouldLogin -->
+      </class> <!-- testCases.LoginTest -->
+    </test> <!-- KataliumFramework -->
+  </suite> <!-- Default Suite -->
+</testng-results>
